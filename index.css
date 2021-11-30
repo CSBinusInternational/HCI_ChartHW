@@ -1,12 +1,10 @@
 body{
-    background-color:rgba(51, 216, 188, 0.979);
+    background-color:rgba(51, 150, 216, 0.712);
 }
 h1{
     text-align: center;
 }
-h2{
-    text-align: center;
-}
+
 a{
     text-decoration: none;
     color: black;
