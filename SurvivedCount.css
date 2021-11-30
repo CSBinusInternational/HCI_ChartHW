@@ -1,104 +1,103 @@
 body {
-	 background-color: #abb1cf;
-	 display: flex;
-	 justify-content: center;
-	 align-items: center;
-	 flex-direction: column;
+	background-color: #abb1cf;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
- .igFrameBar {
-	 width: 300px;
-	 height: 150px;
-	 position: relative;
-	 background: #f2f2f2;
-	 margin: auto;
-	 transform: translate(0, -15%);
+.igFrameBar {
+	width: 300px;
+	height: 150px;
+	position: relative;
+	background: #f2f2f2;
+	margin: auto;
+	transform: translate(0,-15%);
 }
- .igFrameBar:before {
-	 content: "";
-	 width: 100%;
-	 height: 1px;
-	 background: #fff;
-	 position: absolute;
-	 top: 50%;
+.igFrameBar:before {
+	content: "";
+	width: 100%;
+	height: 1px;
+	background: #fff;
+	position: absolute;
+	top: 50%;
 }
- .igFrameBar:after {
-	 content: "";
-	 width: 100%;
-	 height: 50%;
-	 background: transparent;
-	 position: absolute;
-	 top: 25%;
-	 border-top: 1px solid #fff;
-	 border-bottom: 1px solid #fff;
+.igFrameBar:after {
+	content: "";
+	width: 100%;
+	height: 50%;
+	background: transparent;
+	position: absolute;
+	top: 25%;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
 }
- .igData {
-	 width: 50px;
-	 position: absolute;
-	 bottom: 1px;
-	 margin: 0px 0px 0px 0px;
-	 z-index: 99;
-	 float: left;
+.igData {
+	width: 50px;
+	position: absolute;
+	bottom: 1px;
+	margin: 0px 0px 0px 0px;
+	z-index: 99;
+	float: left;
 }
- .igData1 {
-	 background: #83d0c9;
-	 height: 0px;
-	 left: 90px;
-	 -webkit-animation: showBar1 1.2s 0.1s forwards;
-	 -moz-animation: showBar1 1.2s 0.1s forwards;
-	 animation: showBar1 1.2s 0.1s forwards;
+.igData1 {
+	background: #83d0c9;
+	height: 0px;
+	left: 90px;
+	-webkit-animation: showBar1 1.2s 0.1s forwards;
+	-moz-animation: showBar1 1.2s 0.1s forwards;
+	animation: showBar1 1.2s 0.1s forwards;
 }
- .igData2 {
-	 background: #35a79c;
-	 height: 0px;
-	 left: 190px;
-	 -webkit-animation: showBar2 1.2s 0.2s forwards;
-	 -moz-animation: showBar2 1.2s 0.2s forwards;
-	 animation: showBar2 1.2s 0.2s forwards;
+.igData2 {
+	background: #35a79c;
+	height: 0px;
+	left: 190px;
+	-webkit-animation: showBar2 1.2s 0.2s forwards;
+	-moz-animation: showBar2 1.2s 0.2s forwards;
+	animation: showBar2 1.2s 0.2s forwards;
 }
- .igData:before {
-	 position: absolute;
-	 top: -16px;
-	 font-size: 12px;
-	 color: #333;
-	 font-family: "roboto";
-	 font-weight: 300;
+.igData:before {
+	position: absolute;
+	top: -16px;
+	font-size: 12px;
+	color: #333;
+	font-family: "roboto";
+	font-weight: 300;
 }
- .igData1:before {
-	 content: 62%;
+.igData1:before {
+	content: 62%;
 }
- .igData2:before {
-	 content: 38%;
+.igData2:before {
+	content: 38%;
 }
- .igData:after {
-	 position: absolute;
-	 bottom: -55px;
-	 color: #666;
-	 font-size: 14px;
-	 text-align: left;
-	 font-family: "roboto";
-	 font-weight: 300;
-	 width: 150px;
+.igData:after {
+	position: absolute;
+	bottom: -55px;
+	color: #666;
+	font-size: 14px;
+	text-align: left;
+	font-family: "roboto";
+	font-weight: 300;
+	width: 150px;
 }
- .igData1:after {
-	 content: "Deceased";
+.igData1:after {
+	content: "Deceased";
 }
- .igData2:after {
-	 content: "Survived";
+.igData2:after {
+	content: "Survived";
 }
- @-webkit-keyframes showBar1 {
-	 0% {
-		 height: 0px;
-	}
-	 100% {
-		 height: 62%;
-	}
+@-webkit-keyframes showBar1 {
+	0% {
+		height: 0px;
+   }
+	100% {
+		height: 62%;
+   }
 }
- @-webkit-keyframes showBar2 {
-	 0% {
-		 height: 0px;
-	}
-	 100% {
-		 height: 38%;
-	}
+@-webkit-keyframes showBar2 {
+	0% {
+		height: 0px;
+   }
+	100% {
+		height: 38%;
+   }
 }
- 
